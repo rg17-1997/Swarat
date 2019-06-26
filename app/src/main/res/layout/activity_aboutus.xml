@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ABOUTUS"
+    android:background="@drawable/background"
+    android:backgroundTint="#bb7ea4fc"
+    android:backgroundTintMode="src_over">
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+
+        android:padding="20dp"
+        android:text="ABOUT US"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="370dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:padding="10dp"
+        android:text="It is based on Swach Bharat Abhiyaan carried out by government of India for better and clean India. \n
+\n
+The purpose of this app is to monitor and ensure that the waste collection by contractor is being done properly .It  will basically  serve as a tool for Municipal Corporation to monitor if the entire process is being
+done properly. \n \n
+This app is developed by the team Encoders who are related to the organisation of Harcourt Butler Technical University,Kanpur.\n
+This SWARAT app version is 1.0"
+        android:textAlignment="viewStart"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>

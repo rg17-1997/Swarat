@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "671564343114",
+    "firebase_url": "https://navigationex-3b7b1.firebaseio.com",
+    "project_id": "navigationex-3b7b1",
+    "storage_bucket": "navigationex-3b7b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671564343114:android:3e4e0cff032e22f9",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.navigationex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671564343114-49m44dskiv6sgbi8h4mupd123buuujak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBafnlOpUWIsI9YVzPhLgCMI0IW_B1mTAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671564343114-49m44dskiv6sgbi8h4mupd123buuujak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

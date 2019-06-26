@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/bckground"
+        tools:context=".COMPLAIN">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="84dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:alpha="0.8"
+            android:text="COMPLAINT"
+            android:textColor="#ffffff"
+            android:textSize="40dp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:hint="Name"
+            android:textColorHint="#ffffff"
+            android:inputType="textPersonName"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:id="@+id/ecompalint"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:textSize="25dp"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:id="@+id/eaddress"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:hint="City"
+            android:id="@+id/ename"
+            android:inputType="text"
+            android:textColorHint="#ffffff"
+            android:textSize="25dp"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:hint="State"
+            android:id="@+id/ecity"
+            android:textColorHint="#ffffff"
+            android:inputType="text"
+            android:textSize="25dp"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColorHint="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="550dp"
+            android:hint="Pincode"
+            android:inputType="text|numberDecimal"
+            android:textSize="25dp"
+            android:id="@+id/epincode"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColorHint="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="650dp"
+            android:hint="Complaint"
+            android:inputType="text"
+            android:id="@+id/estate"
+            android:textSize="25dp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginHorizontal="110dp"
+            android:layout_marginStart="11dp"
+            android:background="@drawable/roundbutton"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/imageupload"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/roundbutton"
+            android:text="CHOOSE IMAGE"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+
+    </RelativeLayout>
+</ScrollView>
